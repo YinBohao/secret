@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "InOneWeekend.exe"
+			"path" : "out.exe"
 		},
 		{
-			"path" : "InOneWeekend.pdb"
+			"path" : "out.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 4,
+				"line" : 5,
 				"parent" : 0
 			}
 		]
@@ -48,7 +48,7 @@
 			]
 		}
 	],
-	"id" : "InOneWeekend::@6890427a1f51a3e7e1df",
+	"id" : "out::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -68,8 +68,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "InOneWeekend",
-	"nameOnDisk" : "InOneWeekend.exe",
+	"name" : "out",
+	"nameOnDisk" : "out.exe",
 	"paths" : 
 	{
 		"build" : ".",

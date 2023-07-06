@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named InOneWeekend
+# Target rules for targets named out
 
 # Build rule for target.
-InOneWeekend: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 InOneWeekend
-.PHONY : InOneWeekend
+out: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 out
+.PHONY : out
 
 # fast build rule for target.
-InOneWeekend/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\InOneWeekend.dir\build.make CMakeFiles/InOneWeekend.dir/build
-.PHONY : InOneWeekend/fast
+out/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\out.dir\build.make CMakeFiles/out.dir/build
+.PHONY : out/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\InOneWeekend.dir\build.make CMakeFiles/InOneWeekend.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\out.dir\build.make CMakeFiles/out.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -141,7 +141,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\InOneWeekend.dir\build.make CMakeFiles/InOneWeekend.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\out.dir\build.make CMakeFiles/out.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -149,7 +149,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\InOneWeekend.dir\build.make CMakeFiles/InOneWeekend.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\out.dir\build.make CMakeFiles/out.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -160,7 +160,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... InOneWeekend
+	@echo ... out
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

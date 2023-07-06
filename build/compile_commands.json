@@ -1,8 +1,8 @@
 [
 {
   "directory": "C:/Users/Yin/Documents/guangzhoudaxue/wenxian/testf/build",
-  "command": "D:\\PF\\mingw64\\bin\\g++.exe    -O0 -g -g -o CMakeFiles\\InOneWeekend.dir\\main.cpp.obj -c C:\\Users\\Yin\\Documents\\guangzhoudaxue\\wenxian\\testf\\src\\main.cpp",
+  "command": "D:\\PF\\mingw64\\bin\\g++.exe    -O0 -g -g -o CMakeFiles\\out.dir\\main.cpp.obj -c C:\\Users\\Yin\\Documents\\guangzhoudaxue\\wenxian\\testf\\src\\main.cpp",
   "file": "C:/Users/Yin/Documents/guangzhoudaxue/wenxian/testf/src/main.cpp",
-  "output": "CMakeFiles/InOneWeekend.dir/main.cpp.obj"
+  "output": "CMakeFiles/out.dir/main.cpp.obj"
 }
 ]

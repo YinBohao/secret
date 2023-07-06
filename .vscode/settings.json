@@ -56,7 +56,8 @@
   "C_Cpp_Runner.showCompilationTime": false,
   "cmake.sourceDirectory": "C:/Users/Yin/Documents/guangzhoudaxue/wenxian/testf/src",
   "files.associations": {
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "ostream": "cpp"
   },
   "cmake.configureArgs": []
 }

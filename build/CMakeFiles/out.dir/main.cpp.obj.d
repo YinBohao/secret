@@ -1,4 +1,4 @@
-CMakeFiles/InOneWeekend.dir/main.cpp.obj: \
+CMakeFiles/out.dir/main.cpp.obj: \
  C:\Users\Yin\Documents\guangzhoudaxue\wenxian\testf\src\main.cpp \
  d:\pf\mingw64\lib\gcc\mingw32\8.2.0\include\c++\iostream \
  d:\pf\mingw64\lib\gcc\mingw32\8.2.0\include\c++\mingw32\bits\c++config.h \

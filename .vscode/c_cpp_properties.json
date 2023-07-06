@@ -6,10 +6,10 @@
                 "${workspaceFolder}/**",
                 "D:/PF/OpenSSL-Win64/include"
             ],
-            "compilerPath": "D:/PF/mingw64/bin/gcc",
+            "compilerPath": "D:/PF/mingw64/bin/g++.exe",
             "cStandard": "${default}",
             "cppStandard": "${default}",
-            "intelliSenseMode": "windows-gcc-x86",
+            "intelliSenseMode": "windows-gcc-x64",
             "compilerArgs": [
                 ""
             ],

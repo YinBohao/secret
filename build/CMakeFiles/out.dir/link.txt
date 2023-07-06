@@ -1,0 +1,3 @@
+D:\PF\cmake-3.27.0-rc3-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\out.dir/objects.a
+D:\PF\mingw64\bin\ar.exe qc CMakeFiles\out.dir/objects.a @CMakeFiles\out.dir\objects1.rsp
+D:\PF\mingw64\bin\g++.exe  -O0 -g -g -Wl,--whole-archive CMakeFiles\out.dir/objects.a -Wl,--no-whole-archive -o out.exe -Wl,--out-implib,libout.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\out.dir\linkLibs.rsp

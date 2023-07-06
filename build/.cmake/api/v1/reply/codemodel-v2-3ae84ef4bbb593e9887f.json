@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "InOneWeekend::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-InOneWeekend-Debug-bc8eac5be53437931f49.json",
-					"name" : "InOneWeekend",
+					"id" : "out::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-out-Debug-5bf2f491330628d61df0.json",
+					"name" : "out",
 					"projectIndex" : 0
 				}
 			]
