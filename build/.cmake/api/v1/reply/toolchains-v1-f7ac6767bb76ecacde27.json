@@ -1,0 +1,134 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/PF/mingw64/lib/gcc/mingw32/8.2.0/include",
+						"D:/PF/mingw64/include",
+						"D:/PF/mingw64/lib/gcc/mingw32/8.2.0/include-fixed"
+					],
+					"linkDirectories" : 
+					[
+						"D:/PF/mingw64/lib/gcc/mingw32/8.2.0",
+						"D:/PF/mingw64/lib/gcc",
+						"D:/PF/mingw64/mingw32/lib",
+						"D:/PF/mingw64/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "D:/PF/mingw64/bin/gcc.exe",
+				"version" : "8.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/PF/mingw64/lib/gcc/mingw32/8.2.0/include/c++",
+						"D:/PF/mingw64/lib/gcc/mingw32/8.2.0/include/c++/mingw32",
+						"D:/PF/mingw64/lib/gcc/mingw32/8.2.0/include/c++/backward",
+						"D:/PF/mingw64/lib/gcc/mingw32/8.2.0/include",
+						"D:/PF/mingw64/include",
+						"D:/PF/mingw64/lib/gcc/mingw32/8.2.0/include-fixed"
+					],
+					"linkDirectories" : 
+					[
+						"D:/PF/mingw64/lib/gcc/mingw32/8.2.0",
+						"D:/PF/mingw64/lib/gcc",
+						"D:/PF/mingw64/mingw32/lib",
+						"D:/PF/mingw64/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "D:/PF/mingw64/bin/g++.exe",
+				"version" : "8.2.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "D:/PF/mingw64/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,3 @@
+D:\PF\cmake-3.27.0-rc3-windows-x86_64\bin\cmake.exe -E rm -f CMakeFiles\InOneWeekend.dir/objects.a
+D:\PF\mingw64\bin\ar.exe qc CMakeFiles\InOneWeekend.dir/objects.a @CMakeFiles\InOneWeekend.dir\objects1.rsp
+D:\PF\mingw64\bin\g++.exe  -O0 -g -g -Wl,--whole-archive CMakeFiles\InOneWeekend.dir/objects.a -Wl,--no-whole-archive -o InOneWeekend.exe -Wl,--out-implib,libInOneWeekend.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\InOneWeekend.dir\linkLibs.rsp
